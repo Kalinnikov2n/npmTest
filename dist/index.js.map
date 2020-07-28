@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.js"],"sourcesContent":["const fufik = (value) => console.log(\"nice deps, this is your value -\", value);\nexport default fufik;\n"],"names":[],"mappings":";;;;AAAK,MAAC,KAAK,GAAG,CAAC,KAAK,KAAK,OAAO,CAAC,GAAG,CAAC,iCAAiC,EAAE,KAAK;;;;"}

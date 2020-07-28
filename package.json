@@ -1,0 +1,41 @@
+{
+  "name": "kal",
+  "version": "1.0.0",
+  "description": "test",
+  "authors": [
+    {
+      "name": "kalinnikov",
+      "gitHub": "https://github.com/Kalinnikov2n"
+    }
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c",
+    "commit-all": "git add . && git-cz",
+    "changelog": "./node_modules/.bin/conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalinnikov2n/npmTest.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalinnikov2n/npmTest/issues"
+  },
+  "homepage": "https://github.com/Kalinnikov2n/npmTest#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "rollup": "^2.23.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3"
+  }
+}
